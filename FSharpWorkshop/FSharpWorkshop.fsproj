@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Syntax1.fsx" />
+    <None Include="Syntax2.fsx" />
+    <None Include="Lists.fsx" />
+    <None Include="Types.fsx" />
+    <None Include="SyntaxAnnotated.fsx" />
+    <None Include="Problems.fsx" />
+    <None Include="Tutorial.fsx" />
+    <None Include="Script.fsx" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup />
+
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
